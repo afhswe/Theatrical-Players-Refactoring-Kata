@@ -6,6 +6,9 @@ namespace TheatricalPlayersRefactoringKata
 {
     public class StatementPrinter
     {
+        // 1: Calculates volume credits
+        // 2: Calculates total amount- of the invoice
+        // 3: Generating printing representation
         public string Print(Invoice invoice, Dictionary<string, Play> plays)
         {
             var totalAmount = 0;
